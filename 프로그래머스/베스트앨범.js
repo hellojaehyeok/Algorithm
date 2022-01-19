@@ -1,3 +1,5 @@
+// https://talkwithcode.tistory.com/37?category=1019915
+
 function solution(genres, plays) {
     let genresLengthArr = {};
     let sortData = {};
