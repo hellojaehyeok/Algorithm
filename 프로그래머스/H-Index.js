@@ -1,3 +1,5 @@
+// https://talkwithcode.tistory.com/44
+
 // 1차 시도
 function solution(citations) {
     citations = citations.sort((a, b)=>a-b);
@@ -18,7 +20,6 @@ function solution(citations) {
     }
 }
 
-console.clear();
 function solution(citations) {
     citations = citations.sort((a,b)=>b-a);
     let count = 0;
@@ -29,10 +30,3 @@ function solution(citations) {
     }
     return count;
 }
-console.log(solution([47, 42, 32, 28, 24, 22, 17, 15, 10, 10, 8]));
-console.log(solution([3, 0, 6, 1, 5]));
-
-
-// i+1 --> i번째 수보다 큰 수들의 양
-// citations[i] --> 현재 수 
-// 이해 중
